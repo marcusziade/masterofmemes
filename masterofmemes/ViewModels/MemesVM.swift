@@ -28,12 +28,11 @@ import Foundation
             .dropFirst()
             .debounce(for: 0.5, scheduler: DispatchQueue.main)
             .removeDuplicates()
-            .sink { [unowned self] query in
-                if query.isEmpty {
-                    state = .result(memes: memes)
-                } else {
-                    state = .result(memes: memes.filter { $0.name.contains(query) })
-                }
+            .map { [unowned self] query -> [Meme] in
+                return query.isEmpty ? memes : memes.filter { $0.name.contains(query) }
+            }
+            .sink { [unowned self] memes in
+                state = .result(memes: memes)
             }
             .store(in: &cancellables)
     }
