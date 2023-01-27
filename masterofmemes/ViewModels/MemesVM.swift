@@ -1,10 +1,3 @@
-//
-//  MemesVM.swift
-//  masterofmemes
-//
-//  Created by Marcus Ziadé on 16.12.2022.
-//
-
 import Combine
 import Foundation
 
@@ -63,3 +56,5 @@ import Foundation
         return vm
     }
 }
+
+

@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  masterofmemes
-//
-//  Created by Marcus Ziadé on 16.12.2022.
-//
-
 import UIKit
 
 final class ViewController: UIViewController {
@@ -14,3 +7,5 @@ final class ViewController: UIViewController {
         view.backgroundColor = .gray
     }
 }
+
+

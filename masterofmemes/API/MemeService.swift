@@ -1,10 +1,3 @@
-//
-//  MemeService.swift
-//  masterofmemes
-//
-//  Created by Marcus Ziadé on 16.12.2022.
-//
-
 import Foundation
 
 /// https://api.imgflip.com
@@ -76,3 +69,5 @@ final class MemeService {
         return d
     }()
 }
+
+

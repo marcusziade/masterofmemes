@@ -1,10 +1,3 @@
-//
-//  MemesRequest.swift
-//  masterofmemes
-//
-//  Created by Marcus Ziadé on 16.12.2022.
-//
-
 import Foundation
 
 extension MemeService {
@@ -33,3 +26,5 @@ extension MemeService {
         return memes
     }
 }
+
+

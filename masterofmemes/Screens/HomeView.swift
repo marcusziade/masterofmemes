@@ -1,10 +1,3 @@
-//
-//  HomeView.swift
-//  masterofmemes
-//
-//  Created by Marcus Ziadé on 16.12.2022.
-//
-
 import SwiftUI
 
 struct HomeView: View {
@@ -38,3 +31,5 @@ struct HomeView_Previews: PreviewProvider {
             .preferredColorScheme(.dark)
     }
 }
+
+

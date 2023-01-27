@@ -1,10 +1,3 @@
-//
-//  MemesResponse.swift
-//  masterofmemes
-//
-//  Created by Marcus Ziadé on 16.12.2022.
-//
-
 import Foundation
 
 struct MemesResponse: Codable {
@@ -19,3 +12,5 @@ struct MemesResponse: Codable {
 struct DataClass: Codable {
     let memes: [Meme]
 }
+
+

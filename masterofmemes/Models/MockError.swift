@@ -1,10 +1,3 @@
-//
-//  MockError.swift
-//  masterofmemes
-//
-//  Created by Marcus Ziadé on 16.12.2022.
-//
-
 import Foundation
 
 enum MockError: Error {
@@ -21,3 +14,5 @@ enum MockError: Error {
         }
     }
 }
+
+

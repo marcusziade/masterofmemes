@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  masterofmemes
-//
-//  Created by Marcus Ziadé on 16.12.2022.
-//
-
 import Foundation
 import SwiftUI
 import UIKit
@@ -30,3 +23,5 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     private let memesVM = MemesVM(service: MemeService())
 }
+
+

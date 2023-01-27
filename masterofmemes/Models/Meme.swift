@@ -1,10 +1,3 @@
-//
-//  Meme.swift
-//  masterofmemes
-//
-//  Created by Marcus Ziadé on 16.12.2022.
-//
-
 import Foundation
 
 struct Meme: Codable, Identifiable {
@@ -16,3 +9,5 @@ struct Meme: Codable, Identifiable {
     let boxCount: Int?
     let captions: Int
 }
+
+

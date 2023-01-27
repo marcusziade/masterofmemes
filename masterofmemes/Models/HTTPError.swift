@@ -1,10 +1,3 @@
-//
-//  HTTPError.swift
-//  masterofmemes
-//
-//  Created by Marcus Ziadé on 16.12.2022.
-//
-
 import Foundation
 
 enum HTTPError: Error {
@@ -55,3 +48,5 @@ enum HTTPError: Error {
         }
     }
 }
+
+

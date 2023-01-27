@@ -1,10 +1,3 @@
-//
-//  MemesListView.swift
-//  masterofmemes
-//
-//  Created by Marcus Ziadé on 16.12.2022.
-//
-
 import SwiftUI
 
 struct MemesListView: View {
@@ -39,3 +32,5 @@ struct MemesListView_Previews: PreviewProvider {
             .preferredColorScheme(.dark)
     }
 }
+
+
